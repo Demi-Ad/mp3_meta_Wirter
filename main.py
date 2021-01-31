@@ -62,7 +62,7 @@ def get_meta(url):
     print("셀레니움 로딩중....\n")
 
     # 셀레니움 기본설정
-    driver_path = 'D:\\programing\\PYTHON\\NoRi MP3 tag macro\\chromedriver.exe' 
+    driver_path = None # 수정하세요
     options = webdriver.ChromeOptions()
     options.add_experimental_option(
         "excludeSwitches", ["enable-logging"])
